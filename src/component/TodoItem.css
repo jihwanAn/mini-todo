@@ -1,0 +1,40 @@
+.TodoItem {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+
+    border-radius: 5px;
+    box-shadow:  1px 2px 5px 1px rgb(146, 146, 248);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+/* .TodoItem + .TodoItem {
+    margin-top: 15px;
+} */
+
+.content {
+    cursor: pointer;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.content svg {
+    font-size: 1.4rem;
+    color:rgb(160, 125, 255)
+}
+
+.content .text {
+    margin-left: 0.5rem;
+    flex: 1;
+}
+
+/* 취소선 */
+.content.checked .text {
+    color: rgb(63, 63, 182);
+    text-decoration: line-through;
+    cursor: pointer;
+    opacity: 0.6;
+}

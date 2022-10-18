@@ -1,0 +1,56 @@
+.background {
+    position: fixed;
+    z-index: 980;
+    top: 0;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(25, 17, 54);
+    opacity: 0.6;
+}
+
+form {
+    margin-left: 35%;
+    position: fixed;
+    top: 25%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 990;
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 15px 5px rgb(91, 61, 146);
+    background-color: white;
+}
+
+form > input {
+    margin-left: 20%;
+    margin-top: 14%;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(102, 102, 185);
+
+    padding: 0.5rem;
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+
+form > button {
+    padding-top: 30px;
+    background: none;
+    outline: none;
+    border: none;
+    color: rgb(89, 34, 241);
+    padding-left: 12rem;
+    padding-right: 12rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transform: 0.1s background ease-in;
+}
